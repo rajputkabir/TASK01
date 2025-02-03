@@ -9,6 +9,7 @@ import Email from "./components/email";
 import Logiin from "./components/Logiin";
 import Vector from "./components/Vector";
 import Setupf from "./components/Setupf";
+import Setups from "./components/Setups";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
 <Route path='/logiin' element={<Logiin></Logiin>}/>
 <Route path='/vector' element={<Vector></Vector>}/>
 <Route path='/setupf' element={<Setupf></Setupf>}/>
+<Route path='/setups' element={<Setups></Setups>}/>
     </Routes>
     </BrowserRouter>
 {/* <div> */}
