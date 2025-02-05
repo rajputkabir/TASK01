@@ -3,7 +3,9 @@ html, body {
   padding: 0;
   height: 100%; 
   overflow: hidden; 
-  overflow-y: hidden;
+  background: #F9FAFC;
+
+  overflow-y: visible;
 }
 
 
@@ -1109,8 +1111,7 @@ color: #D59C17;
 }
 .secondmain{
   width: 100vw;
-  height: 100vh;
-  background: #F9FAFC;
+  height: 117vh;
   
 
 }
@@ -1197,7 +1198,7 @@ opacity: 0px;
 
 }
 .stores{
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 font-size: 24px;
 font-weight: 600;
 line-height: 32.68px;
@@ -1223,17 +1224,21 @@ gap: 0px;
 border-radius: 16px 16px 16px 16px;
 opacity: 0px;
 background: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
 .subforming{
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
   justify-content: center;
-  align-items: left;
+  /*align-items: left;*/
 }
 .regtexts{
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 font-weight: 600;
 line-height: 24.51px;
@@ -1244,8 +1249,8 @@ color: #000000;
 
 }
 .formfills{
-  width: Fill (428px)px;
-  height: Fixed (42px)px;
+  width: 85%;
+ /* height: Fixed (42px)px;*/
   padding: 0px 12px 0px 12px;
   gap: 0px;
   border-radius: 8px 8px 8px 8px;
@@ -1255,7 +1260,322 @@ color: #000000;
   background: #FFFFFF;
 
 }
+.formcontentss{
+  /* position: relative;*/
+ width: 50.72%;
+ /*gap: 40px;*/
+ text-align: left;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: auto;
+ 
+ }
+ .form-groups{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+ }
+ .buttonwithtext{
+  width: 100%;
+  height: -1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* gap: 250px;*/
+ }
+ /*.svg{
+  width: 49px;
+  height: 25px;
+  gap: 0px;
+  opacity: 0px;
+  width: 17.09px;
+  height: 17.23px;
+  top: 3.88px;
+  left: 4.2px;
+  gap: 0px;
+  opacity: 0px;
+  background: #BCBCBC;
+    
+
+ }*/
+ .outing{
+  width: 90%;
+height: 33%;
+
+/*padding: 34px 123px 34px 123px;*/
+gap: 10px;
+border-radius: 12px 12px 12px 12px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+ }
+ .bigboxes{
+  width: 100%;
+  height: 102%;
+
+ }
+ .selecty{
+  font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+ }
+ .textselect{
+  width: 100%;
+height: 100%;
+top: 24px;
+left: 494px;
+gap: 0px;
+opacity: 0px;
+
+ }
+ .selecttheme{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+ }
+ .layering{
+  width: 100%;
+  height: 100%;
+ }
+ .twos{
+  width: 96%;
+height: 300%;
+top: 65px;
+left: 494px;
+/* padding: 34px 123px 34px 123px; */
+gap: 10px;
+border-radius: 12px 12px 12px 12px;
+/* border: 1px 1px 0px 0px; */
+opacity: 0px;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+ }
+ .textsandbutton{
+  height: 13%;
+ }
+ .twoselect{
+  width: 100%;
+height: 100%;
+/* gap: 48px; */
+opacity: 0px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+
+ }
+ .primarys{
+  width: 100%;
+height: 100%;
+gap: 16px;
+opacity: 0px;
+ }
+ .pclr{
+  font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 0.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #B0B0B0;
+
+ }
+ .rectangle11{
+  width: 80.19%;
+height: 51.78%;
+gap: 0px;
+border-radius: 12px 12px 12px 12px;
+/*border: 0.82px 0px 0px 0px;*/
+opacity: 0px;
+background: #FFFFFF;
+border: 0.82px solid #E6E6E6
+ }
+ .dialogbox{
+  width: 80%;
+height: 15%;
+/* padding: 0px 24px 0px 24px; */
+gap: 0px;
+border-radius: 6.54px 6.54px 6.54px 6.54px;
+/*border: 0.82px 0px 0px 0px;*/
+opacity: 0px;
+border: 0.82px solid #DADADA;
+text-align: center;
+display: flex;
+justify-content: center;
+ }
+ .no-border {
+  border: none; 
+  outline: none; 
+}
+.twos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorsthemes{
+  width: 213px;
+height: 25px;
+top: 331px;
+left: 494px;
+gap: 0px;
+opacity: 0px;
+
+}
+.themecolor{
+  font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+
+}
+.skyblue {
+  width: 96%;
+  height: 240%;
+  gap: 10px;
+  border-radius: 12px;
+  opacity: 0px; 
+  background: #FFFFFF;
+  border: 2px dashed #3D9AE2;
+  box-sizing: border-box;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.picturebox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.drag{
+  width: 255px;
+height: 19px;
+gap: 0px;
+opacity: 0px;
+
+}
+.dragorclick{
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #3D9AE2;
+
+}
+.pictures{
+  height: 25%;
+}
+.applyandnext{
+  position: fixed;
+  width: 100%;
+height: 100%;
+top: 600px;
+gap: 0px;
+border: 1px;
+opacity: 0px;
+background: #FFFFFF;
+
+}
+.applysand{
+  width: 12%;
+/* height: 50%; */
+position: relative;
+top: 15px;
+left: 1039px;
+/*padding: 14px 24px 132px 24px;*/
+gap: 10px;
+border-radius: 8px 8px 8px 8px;
+opacity: 0px;
+background: #313C52;
 
 
+}
+.next{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 10.17px;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+  
+}
+/* .america{
+  width: 100%;
+height: 100%;
+gap: 4px;
+opacity: 0px;
+background: url('Flag_of_the_U.S. 1.png') no-repeat center center / cover;
+} */
 
+/* <img src="Flag_of_the_U.S. 1.png" className='flag'></img> */
+/* .flag{
+  object-fit: contain;
+} */
+ .form-groups{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+ }
+ .flag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+   /* padding: 10px; */
+ margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+ }
+ .ek{
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #3A3A3A;
 
+ }
+ form .foru-groups input {
+  /* width: 100%;
+  padding: 10px;
+ margin-bottom: 15px; */
+  border: 0px solid #ccc;
+  /* border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 14px; */
+}
+.flagofus{
+  width: 72%;
+  height: 100%;
+}
