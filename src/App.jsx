@@ -10,6 +10,7 @@ import Logiin from "./components/Logiin";
 import Vector from "./components/Vector";
 import Setupf from "./components/Setupf";
 import Setups from "./components/Setups";
+import Setupt from "./components/Setupt";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
 <Route path='/vector' element={<Vector></Vector>}/>
 <Route path='/setupf' element={<Setupf></Setupf>}/>
 <Route path='/setups' element={<Setups></Setups>}/>
+<Route path='/setupt' element={<Setupt></Setupt>}/>
     </Routes>
     </BrowserRouter>
 {/* <div> */}

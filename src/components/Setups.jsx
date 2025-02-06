@@ -1,6 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { use } from 'react';
+import { useState } from 'react';
+
 
 function Setups() {
+  
   return (
   <>
     <div className='secondmain'>
@@ -45,7 +49,7 @@ Tue, 26 May 2024
     <div className='regbegin'>
         <p className='regtexts'>Store Info</p>
     </div>
-    <div className='formfills'>
+    <div className='formfillts'>
     <form action="#">
   <div class="form-groups">
        <input type="email"  id="email" placeholder='Store Name'/>
@@ -95,9 +99,10 @@ Tue, 26 May 2024
 <div className='textselect'>
 <p className='selecty'>Select Your Color Theme</p>
 </div>
-<div className='logoups'>
-<img src="Layer 6.png" className='layering'></img>
-</div>
+<div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"/>
+    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+  </div>
   </div>
   <div className='twos'>
 <div className='twoselect'>
